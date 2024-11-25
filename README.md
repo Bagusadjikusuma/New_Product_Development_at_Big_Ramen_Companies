@@ -98,19 +98,22 @@ Dataset yang digunakan : [Kaggle.com](https://www.kaggle.com/datasets/residentma
 ---
 ## Result
 
-Dalam analisis ini, dataset yang terkait dengan permainan League of Legends, khususnya pada fase 10 menit pertama dari pertandingan Ranked Diamond, telah melalui beberapa tahap penting untuk meningkatkan hasil model. Setelah melakukan eksplorasi data, penanganan nilai yang hilang, penanganan outliers, serta scaling dan PCA, berbagai model telah diuji dan dievaluasi menggunakan metrik F1-Score. Model SVM menunjukkan performa yang paling baik dalam hal F1-Score setelah proses tuning, sehingga dipilih sebagai model terbaik. Skor menunjukkan bahwa model tersebut memiliki kinerja yang cukup seimbang, sekitar 71%-73% secara keseluruhan.
+Berdasarkan pendekatan SMART, Big Ramen berhasil mengidentifikasi tantangan dalam meningkatkan varian produk Ramen untuk memenuhi kebutuhan pasar yang beragam. Dengan fokus pada analisis data ulasan dan rating pelanggan, mereka berhasil merancang strategi untuk menciptakan varian baru Ramen, Analisis deskriptif menunjukkan bahwa distribusi ulasan (Review) memiliki nilai rata-rata dan median yang sama, sedangkan distribusi rating memiliki rata-rata yang mencapai 3.9, median 4.0, dan modus 5.0. Big Ramen telah berhasil mengidentifikasi masalah, merancang strategi yang sesuai, dan melakukan analisis data yang mendalam untuk meningkatkan inovasi produk Ramen dan memberikan hasil analisa sesuai dengan waktu yang ditetapkan.
 
 ## Conclusion & Business Impact
-Business Impact pada Riot sebagai Developers Game:
+Business Impact pada Big Ramen:
 
-1. Peningkatan Keseimbangan Permainan: Dengan menggunakan model yang telah dioptimalkan, DevOps Riot dapat memperoleh wawasan yang lebih baik tentang keseimbangan permainan di 10 menit pertama pada peringkat Diamond. Hal ini dapat membantu dalam menyesuaikan mekanika permainan atau mengubah parameter tertentu untuk memastikan bahwa pertandingan lebih seimbang dan adil antara Blue Team dan Red Team.
-2. Optimasi Pengalaman Pemain: Dengan mengidentifikasi dan mengatasi ketidakseimbangan di fase awal permainan, Riot dapat meningkatkan pengalaman permainan bagi pemain di tier Diamond. Ini dapat mengurangi frustrasi yang disebabkan oleh ketidakseimbangan dan meningkatkan kepuasan pemain, yang pada gilirannya dapat meningkatkan retensi dan keterlibatan pemain.
-3. Strategi Pengembangan Berbasis Data: Analisis yang dilakukan dengan metrik F1-Score menyediakan basis yang solid untuk pengambilan keputusan berbasis data. Riot dapat menggunakan informasi ini untuk menginformasikan strategi pengembangan dan pembaruan game, serta membuat penyesuaian yang diperlukan untuk meningkatkan kualitas dan keseimbangan permainan.
-4. Kinerja Model yang Terukur: Dengan memilih model SVM berdasarkan F1-Score, Riot dapat menggunakan pendekatan yang terbukti efektif untuk menganalisis dan memprediksi keseimbangan permainan. Ini memastikan bahwa model yang digunakan untuk analisis memiliki performa yang optimal dan dapat diandalkan dalam konteks yang dinamis dari permainan MOBA.
+1. Inovasi Produk yang Lebih Tepat Sasaran: Dengan mengidentifikasi tantangan dalam memperluas varian produk Ramen melalui analisis data ulasan dan rating pelanggan, Big Ramen dapat merancang varian baru yang lebih sesuai dengan kebutuhan pasar yang beragam. Data yang menunjukkan konsentrasi rating tinggi memberikan wawasan berharga tentang preferensi konsumen, yang dapat digunakan untuk mengembangkan varian yang lebih populer dan diinginkan.
 
-Secara keseluruhan, hasil dari analisis ini memberikan alat yang berharga bagi DevOps Riot untuk membuat penyesuaian yang meningkatkan keseimbangan dan kualitas permainan, dengan tujuan akhirnya adalah melihat apakah permainan tersebut memberikan hasil kemenangan yang tepat bagi setiap team yang bermain pada 10 menit pertama pada Rank Diamond agar menghindari kesalahan sistem atau mungkin kecurangan dari setiap pemainnya
+2. Peningkatan Kepuasan Pelanggan: Dengan memahami bahwa distribusi rating cenderung lebih tinggi (modus 5.0) dan analisis deskriptif menunjukkan kecenderungan kepuasan pelanggan yang positif, Big Ramen dapat lebih fokus pada peningkatan kualitas produk yang sudah disukai pelanggan. Hal ini berpotensi meningkatkan loyalitas pelanggan dan mengurangi tingkat pengembalian produk.
 
-## Try App [HERE](https://huggingface.co/spaces/Bagusaja/Machine_Learning_concept_Milestone_2)
+3. Keputusan Berbasis Data untuk Pengembangan Produk: Analisis ulasan dan rating yang dilakukan memberikan dasar yang kuat untuk pengambilan keputusan berbasis data dalam merancang varian produk baru. Big Ramen dapat menginformasikan strategi pengembangan produk, menyesuaikan rasa, ukuran, atau komposisi yang lebih sesuai dengan preferensi pelanggan.
+
+4. Pengembangan Strategi Pemasaran yang Lebih Efektif: Dengan memahami distribusi rating dan ulasan yang ada, Big Ramen dapat merancang strategi pemasaran yang lebih tepat sasaran. Mereka dapat menonjolkan varian produk yang mendapatkan rating tinggi dan memastikan bahwa varian baru yang dikembangkan juga sesuai dengan harapan konsumen.
+
+Secara keseluruhan, hasil dari analisis ini memberikan dasar yang kuat bagi Tim Big Ramen untuk meningkatkan inovasi produk dan menyesuaikan dengan permintaan pasar. Dengan fokus pada data yang sudah terkumpul, mereka dapat menciptakan produk yang lebih tepat sasaran, meningkatkan kepuasan pelanggan, serta memperkuat posisi mereka di pasar.
+
+## See Analyst Here [HERE](https://public.tableau.com/app/profile/bagus.adji.kusuma/viz/DataRamen/DataRatingdanReviewRamenberbagaiNegara?publish=yes)
 ### Notes
 - Saat menjalankan link diatas harap pastikan **restart Space** pada Hugging Face kemudian tunggu hingga App muncul, mungkin membutuhkan waktu untuk load appnya.
 - Dalam App terdapat Bar kiri dimana berisi EDA(Exploratory Data Analyst) dan Bardown kedua berisi Prediction.
